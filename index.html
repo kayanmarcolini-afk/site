@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Kayan Marcolini</title>
+<style>
+  :root{
+    --bg:#faf9f7; --fg:#1c1a17; --muted:#6b645c; --line:#e3ded6; --accent:#8a5a2b;
+  }
+  @media (prefers-color-scheme: dark){
+    :root:not([data-theme="light"]){
+      --bg:#141311; --fg:#ece8e2; --muted:#9a938a; --line:#2a2724; --accent:#c9955c;
+    }
+  }
+  *{box-sizing:border-box}
+  body{
+    margin:0; background:var(--bg); color:var(--fg);
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif;
+    line-height:1.6; -webkit-font-smoothing:antialiased;
+  }
+  .wrap{max-width:640px; margin:0 auto; padding:80px 16px 64px}
+  h1{font-size:clamp(28px,6vw,40px); line-height:1.15; margin:0 0 8px; letter-spacing:-.02em}
+  .role{color:var(--muted); font-size:17px; margin:0 0 40px}
+  h2{font-size:15px; text-transform:uppercase; letter-spacing:.08em; color:var(--muted);
+     font-weight:600; margin:40px 0 12px}
+  p{margin:0 0 16px}
+  ul{margin:0 0 16px; padding-left:20px}
+  li{margin-bottom:6px}
+  a{color:var(--accent)}
+  footer{margin-top:56px; padding-top:24px; border-top:1px solid var(--line);
+         color:var(--muted); font-size:14px}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>Kayan Marcolini</h1>
+  <p class="role">Marketing &amp; automation &middot; Sunshine Coast, Australia</p>
+
+  <p>I work in marketing in the drinks industry and build automations that
+  take repetitive work off the people running the business.</p>
+
+  <h2>What I do</h2>
+  <ul>
+    <li>Workflow automation with n8n and API integrations</li>
+    <li>Email marketing and lifecycle automation</li>
+    <li>Content and photography for drinks brands</li>
+  </ul>
+
+  <h2>Projects</h2>
+  <p>This domain hosts personal projects and internal tools, including
+  automations I use day to day.</p>
+
+  <h2>Contact</h2>
+  <p><a href="mailto:kayanmarcolini@gmail.com">kayanmarcolini@gmail.com</a></p>
+
+  <footer>
+    <a href="/privacy.html">Privacy policy</a>
+  </footer>
+</div>
+</body>
+</html>
